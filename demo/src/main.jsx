@@ -9,13 +9,20 @@ import { BrowserRouter } from 'react-router-dom';
 import { CookiesProvider } from 'react-cookie';
 import { FakestoreIndex} from './fakestore/fakestore-index.jsx'
 import { VideoTutorialIndex } from './video-tutorials/video-tutorial-index.jsx';
+import { Login } from './hooks/login.jsx';
+import { DataBinding } from './hooks/data-binding.jsx';
+import { Arrays } from './hooks/array.jsx';
+import { ProductObject } from './hooks/object.jsx';
+import { ArrayOfObject } from './hooks/arrayofobject.jsx';
+import { ArrayofObject1 } from './hooks/NestedIterations.jsx';
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* Default path for cookies */}
     <CookiesProvider defaultSetOptions={{ path: "/" }}>
       <BrowserRouter>
-        <FakestoreIndex />
+        <ArrayofObject1 />
       </BrowserRouter>
     </CookiesProvider>
   </StrictMode>
