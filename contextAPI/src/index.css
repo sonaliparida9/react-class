@@ -1,0 +1,21 @@
+
+
+.light{
+  background-color: lightseagreen;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.dark{
+  background-color: blanchedalmond;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.nav2{
+  display: flex;
+  gap: 30px;
+}
